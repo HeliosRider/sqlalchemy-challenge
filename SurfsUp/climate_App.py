@@ -13,7 +13,6 @@ from sqlalchemy import create_engine, func
 
 from flask import Flask, jsonify
 
-
 #################################################
 # Database Setup
 #################################################
