@@ -36,7 +36,10 @@
 
         1. SQLAlchemy ORM was seemless. No issues
 
-        2. Performing the exploratory analysis was challenging. Specifically, coding was hit or miss in attemping to calculate the date one year from the last date in data set and using Pandas Plotting with Matplotlib to plot the data. Assistance was required from the instructor and from Jleigh101 at https://github.com/JLeigh101/sqlalchemy-challenge.git. to point in the right direction.
+        2. Performing the exploratory analysis was challenging. Specifically, coding was hit or miss in attemping to calculate 
+            the date one year from the last date in data set and using Pandas Plotting with Matplotlib to plot the data. 
+            Assistance was required from the instructor and review of Jleigh101 at https://github.com/JLeigh101/sqlalchemy-challenge.git. 
+            to point me in the right direction.
 
     
     Part 2.
@@ -46,13 +49,16 @@
              "/api/v1.0/<start><br/>"
             "/api/v1.0/<start>/<end><br/>"
 
-           specifically, the <> bracktes had to removed from the start and end statements in order for their respective @app.route() and queries fucntion to opertate without errors.
+           specifically, the <> bracktes had to removed from the start and end statements in order for their respective @app.route() 
+           and queries fucntion to opertate without errors.
         
         2. After making the aforementined adjustments, the Flask API performed the following:
 
-           a. Return a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
+           a. Return a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified 
+              start or start-end range.
            b. For a specified start, calculate TMIN, TAVG, and TMAX for all the dates greater than or equal to the start date.
-           c. For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
+           c. For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to 
+              the end date, inclusive.
 
 **Analysis results**
 
